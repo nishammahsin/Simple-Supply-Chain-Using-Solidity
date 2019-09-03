@@ -7,7 +7,7 @@
     "dev": "gulp"
   },
   "keywords": [],
-  "author": "Rick Warling <rickwarling@gmail.com> (https://ipfs.infura.io/ipfs/QmSXiR9Khm3yo1J67nUopvVBxFJ8YGN2fUGZ34Etr3m92x/)",
+  "author": "",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.4.4",
