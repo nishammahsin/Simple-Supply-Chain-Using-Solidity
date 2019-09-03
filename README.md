@@ -2,9 +2,9 @@
 
 This repository containts an Ethereum DApp that demonstrates a Supply Chain flow between a Seller and Buyer. The user story is similar to any commonly used supply chain process. A Seller can add items to the inventory system stored in the blockchain. A Buyer can purchase such items from the inventory system. Additionally a Seller can mark an item as Shipped, and similarly a Buyer can mark an item as Received.
 
-**9.05.2019 - UPDATE:** The Farmer can/must include a picture of the good which will be stored on the IPFS server using the infura API. The Hash of the image will be included in the struct of the good.
+The Farmer can/must include a picture of the good which will be stored on the IPFS server using the infura API. The Hash of the image will be included in the struct of the good.
 
-**11.05.2019 - UPDATE:**  It now includes the usage of access control which means that the owner of the contract has first to set the different roles (Farmer, Distributor, Retailer), and only these addresses can now execute their respective functions:
+ It now includes the usage of access control which means that the owner of the contract has first to set the different roles (Farmer, Distributor, Retailer), and only these addresses can now execute their respective functions:
 
 * Farmer can only: HARVEST, PROCESS, PACK, SELL
 
@@ -12,7 +12,7 @@ This repository containts an Ethereum DApp that demonstrates a Supply Chain flow
 
 * Retailer can only: RECEIVE
 
-**CURRENT:** live version of contract: [ETHERSCAN](https://rinkeby.etherscan.io/address/0x0b0f0D2C24E795133Bf66a977B1F8e9d73759429)
+**CURRENT:** live version of contract: [ETHERSCAN](https://rinkeby.etherscan.io/address/0xCc5D549D59a5629ED47Ef844f61B9Af3a05908E2)
 
 **OTHER UPDATES COMING SOON**
 
